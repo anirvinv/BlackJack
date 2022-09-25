@@ -1,18 +1,16 @@
-## Getting Started
+## Black Jack
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Try out Black Jack!
 
-## Folder Structure
+## Instructions
 
-The workspace contains two folders by default, where:
+There are two players in this game:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `You`
+- `The Dealer` (the script)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+You and the dealer start off with 0 points. Each card is worth its face value and J,Q,K are worth 10,11 and 12 points. You can pick the value of ace to be 1 or 11 points during the game. You can choose to hit or stay during each turn. If you hit, you can add an unknown card to your pile. If you stay, the dealer adds it to their pile. If you either of you get to 21 points, its an immediate win. If anyone goes over, its an immediate loss.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Running the Game
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Clone the repo and start run App.java.
